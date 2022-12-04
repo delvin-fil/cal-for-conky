@@ -28,6 +28,11 @@ ${catp /tmp/holidays.txt}
 ...
 ]]
 ```
+в cron
+
+```bash
+* 0 * * * /home/$USER/conky/git/cal-for-conky/holidays-for-conky.py
+```
 
 При необходимости изменить вывод правим код:
 ![cfc-1](cfc-1.png)
